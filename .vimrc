@@ -32,4 +32,7 @@ call plug#end()
 " to visibly change the brackets color
 let g:rainbow_active = 1
 
-
+" set swap file to different location
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
